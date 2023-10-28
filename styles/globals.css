@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  text-decoration: none;
+}
+
+.title {
+  background-color: #1d3446;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding: 30px;
+}
+
+.cover {
+  font-size: 24px;
+  padding: 100px;
+  margin-bottom: 10px;
+  background-color: #c8def0;
+  color: #4a555c;
+  text-align: center;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 150px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  color: #1d3446;
+  border-radius: 5px;
+  border: 1px solid #1d3446;
+}/*# sourceMappingURL=globals.css.map */

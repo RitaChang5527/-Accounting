@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  outline: none;
+  margin: 50px 5px;
+}
+.container .form input[type=number], .container .form input[type=text] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  outline: none;
+  margin: 50px 5px;
+}
+.container .form button[type=submit] {
+  padding: 10px 20px;
+  background-color: #1d3446;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 50px 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.container .form button[type=submit]:hover {
+  background-color: #1d3446;
+}
+.container hr {
+  border: 1px solid #CCC;
+  width: 900px;
+}
+.container .record {
+  border-radius: 5px;
+}
+.container .record ul {
+  list-style: none;
+  padding: 0;
+}
+.container .record ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .record ul li .info {
+  width: 600px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.container .record ul li .info .amount,
+.container .record ul li .info .item {
+  font-family: sans-serif;
+  font-size: 22px;
+  flex: 1;
+}
+.container .record ul li .info .positiveAmount {
+  font-family: sans-serif;
+  color: #12a52b;
+}
+.container .record ul li .info .negativeAmount {
+  font-family: sans-serif;
+  color: #ff0000;
+}
+.container .record ul li button {
+  font-family: sans-serif;
+  margin-top: 25px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.container .record ul li button:hover {
+  background-color: #cc0000;
+}
+.container h2 {
+  margin: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}/*# sourceMappingURL=template.module.css.map */
