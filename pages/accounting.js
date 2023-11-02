@@ -1,4 +1,4 @@
-import Template from '../components/template';
+import Template from '../src/components/template';
 import Link from 'next/link';
 
 function accounting() {

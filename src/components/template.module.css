@@ -58,7 +58,6 @@
   display: flex;
   align-items: center;
 }
-.container .record ul li .info .amount,
 .container .record ul li .info .item {
   font-family: sans-serif;
   font-size: 22px;
@@ -67,10 +66,14 @@
 .container .record ul li .info .positiveAmount {
   font-family: sans-serif;
   color: #12a52b;
+  font-size: 22px;
+  flex: 1;
 }
 .container .record ul li .info .negativeAmount {
   font-family: sans-serif;
   color: #ff0000;
+  font-size: 22px;
+  flex: 1;
 }
 .container .record ul li button {
   font-family: sans-serif;
