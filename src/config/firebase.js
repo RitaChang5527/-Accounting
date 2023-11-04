@@ -1,17 +1,15 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import {getFirestore} from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXziP_mWM5rCUaG5U0EvoVpgo6gYq4HZw",
-  authDomain: "accounting-1037d.firebaseapp.com",
-  projectId: "accounting-1037d",
-  storageBucket: "accounting-1037d.appspot.com",
-  messagingSenderId: "1010028276110",
-  appId: "1:1010028276110:web:9aa93f56d60fdf4eb21cdf",
+    apiKey: "AIzaSyBQMpOUfTUrE2_6ZIV0gGeeubvo4elNt6U",
+    authDomain: "accounting-6ea9a.firebaseapp.com",
+    projectId: "accounting-6ea9a",
+    storageBucket: "accounting-6ea9a.appspot.com",
+    messagingSenderId: "359150385098",
+    appId: "1:359150385098:web:92f7308e89419bbdb74133",
+    measurementId: "G-XQZX3PD3JM"
 };
 
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
 export const db = getFirestore(app);
-
